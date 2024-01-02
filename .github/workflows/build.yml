@@ -36,6 +36,6 @@ jobs:
         env:
           GITHUB_USERNAME: secrets.GITHUB_TOKEN
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SONAR_LOGIN: ${{ secrets.SONAR_TOKEN }}
-          NAV_TOKEN: b69abe105cad2bb90bbf0bc4b7223037c3623b03|
+          SONAR_LOGIN: b69abe105cad2bb90bbf0bc4b7223037c3623b03
+          NAV_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: mvn --settings maven-settings.xml sonar:sonar
