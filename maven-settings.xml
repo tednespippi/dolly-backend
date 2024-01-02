@@ -7,3 +7,18 @@
         </server>
     </servers>
 </settings>
+<settings>
+    <profiles>
+        <profile>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <repositories>
+                <repository>
+                    <id>internal-mirror-github-navikt</id>
+                    <url>https://repo.adeo.no/repository/github-package-registry-navikt/</url>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
+</settings>
